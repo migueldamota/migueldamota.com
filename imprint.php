@@ -19,9 +19,7 @@
                 <h2>Imprint</h2>
 
                 <p>Miguel da Mota</p>
-                <p>Fennastraße 20</p>
-                <p>48529 Nordhorn</p>
-                <p>Germany</p>
+                <p>Address: On request</p>
 
                 <br>
 
