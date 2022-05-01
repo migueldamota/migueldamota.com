@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get latest code!
+        uses: actions/checkout@v2
+
+      - name: Deploy!
+        uses: migueldamota/custom-deployer@0.3.9
+        with:
+          private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          dir: '/var/www/migueldamota.com'
+          host: ${{ secrets.SSH_HOST }}
+          user: root
+          password: ${{ secrets.SSH_PASSWORD }}
+          token: ${{ github.token }}
