@@ -6,12 +6,12 @@
 
         <title>Miguel da Mota</title>
 
-        <link rel="stylesheet" href="/css/app.css?">
+        <link rel="stylesheet" href="/css/app.css">
     </head>
 
     <body class="dark -theme">
 
-        <?php include_once "./inc/header.php"; ?>
+        <?php include_once "inc/header.php"; ?>
 
         <section class="sectionHero">
             <div class="heroWrapper">
@@ -36,6 +36,8 @@
 
             </div>
         </section>
+
+        <?php include_once "inc/footer.php" ?>
 
     </body>
 </html>
