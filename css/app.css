@@ -65,7 +65,7 @@ header {
     background-color: var(--background);
 }
 
-header h2 {
+header a {
     font-size: 20px;
 }
 
