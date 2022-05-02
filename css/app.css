@@ -96,6 +96,7 @@ header ul li {
 header ul li a {
     color: var(--color-2);
     transition: color .15s;
+    font-size: 14px;
 }
 
 header ul li a:hover {
