@@ -1,6 +1,6 @@
 <header>
     <div class="headerWrapper">
-        <a class="highlight" href="/">Miguel da Mota</a>
+        <a class="highlight headerLogo" href="/">miguel<b>damota</b></a>
 
         <ul>
             <li>

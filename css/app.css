@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap');
 
 *, *::after, *::before {
     -webkit-box-sizing: border-box;
@@ -69,6 +69,16 @@ header a {
     font-size: 20px;
 }
 
+.headerLogo {
+    cursor: pointer !important;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 200 !important;
+}
+
 header > * {
     background-color: var(--background);
     padding: 0 var(--gap-half);
@@ -86,6 +96,7 @@ header > * {
 header ul {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 header ul li {
