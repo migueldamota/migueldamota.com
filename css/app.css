@@ -6,19 +6,14 @@
 }
 
 :root {
-    --background: #fff;
-    --color: #000;
+    --background: #0e0e0f;
+    --color: #fff;
     --color-2: #8a8a8a;
 
     --gap: 24px;
     --gap-double: calc(var(--gap) * 2);
     --gap-half: calc(var(--gap) / 2);
     --gap-quarter: calc(var(--gap) / 4);
-}
-
-.dark-theme {
-    --background: #000;
-    --color: #fff;
 }
 
 html, body, div, header, footer, section, article, form, input, select, ul, li, ol, button, textarea,
@@ -50,6 +45,17 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--background);
+    z-index: 10000;
+    transition: opacity .3s;
 }
 
 
@@ -143,17 +149,22 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin-bottom: var(--gap);
+    color: var(--color-2);
+}
+.sectionHero h1 {
+    font-size: 64px;
     margin-bottom: var(--gap);
 }
 
 .sectionHero h2 {
-    font-size: 38px;
-    color: var(--color-2);
+    font-size: 28px;
     font-weight: 400;
 }
 
 .highlight {
-    cursor: default;
+    cursor: pointer;
     display: inline-block;
     position: relative;
     color: var(--color);
@@ -349,6 +360,8 @@ footer {
 @media (max-width: 992px) {
     header {
         font-size: 14px;
+
+
     }
 
     header h2 {
@@ -366,6 +379,17 @@ footer {
 
 
     .sectionHero h2 {
-        font-size: 32px;
+        font-size: 24px;
+    }
+
+    .sectionHero h1 {
+        font-size: 38px;
+    }
+
+    .headerLogo {
+        position: unset !important;
+        top: 0;
+        left: 0;
+        transform: unset;
     }
 }

@@ -7,22 +7,27 @@
 
         <title>Miguel da Mota</title>
 
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+
         <link rel="stylesheet" href="/css/app.css">
     </head>
 
-    <body class="dark -theme">
+    <body>
+
+        <div class="loading"></div>
 
         <?php include_once "inc/header.php"; ?>
 
         <section class="sectionHero">
             <div class="heroWrapper">
 
-                <h2>Hi! I am <span class="highlight">Miguel</span>! I am <span class="highlight">18 years</span> old and I live in <span class="highlight">Germany</span>.</h2>
+                <h1>Hi! I am <span class="highlight">Miguel</span>!</h1>
+                <h2>I am <span class="highlight">18 years</span> old and I live in <span class="highlight">Germany</span>.</h2>
 
-                <div class="arrows">
+                <a href="#abc" class="arrows">
                     <div class="arrow"></div>
                     <div class="arrow"></div>
-                </div>
+                </a>
             </div>
         </section>
 
@@ -40,5 +45,6 @@
 
         <?php include_once "inc/footer.php" ?>
 
+        <script src="/js/app.js"></script>
     </body>
 </html>
