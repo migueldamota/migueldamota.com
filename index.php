@@ -17,7 +17,7 @@
         <section class="sectionHero">
             <div class="heroWrapper">
 
-                <h2>Hi! I am <span class="highlight">Miguel</span>. I am <span class="highlight">18 years</span> old and I live in <span class="highlight">Germany</span>.</h2>
+                <h2>Hi! I am <span class="highlight">Miguel</span>! I am <span class="highlight">18 years</span> old and I live in <span class="highlight">Germany</span>.</h2>
 
                 <div class="arrows">
                     <div class="arrow"></div>
