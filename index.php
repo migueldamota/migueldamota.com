@@ -21,7 +21,7 @@
         <section class="sectionHero">
             <div class="heroWrapper">
 
-                <h1>Hi! I am <span class="highlight">Miguel</span>!</h1>
+                <h1>Hi, I am <span class="highlight">Miguel</span>!</h1>
                 <h2>I am <span class="highlight">18 years</span> old and I live in <span class="highlight">Germany</span>.</h2>
 
                 <a href="#abc" class="arrows">
