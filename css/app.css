@@ -315,8 +315,21 @@ section {
 }
 
 section:not(.sectionHero) h2 {
-    font-size: 28px;
+    position: relative;
+    font-size: 32px;
     margin-bottom: var(--gap);
+    padding-left: calc(var(--gap) * 1.5);
+}
+
+section:not(.sectionHero) h2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 24px;
+    background-color: #3742fa;
+    height: 3px;
+    border-radius: 50px;
 }
 
 
