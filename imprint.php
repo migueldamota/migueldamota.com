@@ -1,3 +1,6 @@
+<?php
+require_once "inc/config.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -20,11 +23,11 @@
                 <h2>Imprint</h2>
 
                 <p>Miguel da Mota</p>
-                <p>Address: On request</p>
+                <p><b>Address</b>: On request</p>
 
                 <br>
 
-                <p>E-Mail: hi@migueldamota.com</p>
+                <p><b>E-Mail</b>: hi@migueldamota.com</p>
 
             </div>
         </section>

@@ -1,3 +1,6 @@
+<?php
+require_once "inc/config.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -22,7 +25,7 @@
             <div class="heroWrapper">
 
                 <h1>Hi, I am <span class="highlight">Miguel</span>!</h1>
-                <h2>I am <span class="highlight">18 years</span> old and I live in <span class="highlight">Germany</span>.</h2>
+                <h2>I am <span class="highlight"><?php echo date("Y") - 2004 ?> years</span> old and I live in <span class="highlight">Germany</span>.</h2>
 
                 <a href="#abc" class="arrows">
                     <div class="arrow"></div>
